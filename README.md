@@ -19,24 +19,20 @@ A Django-based Library Information Management System designed to manage library 
 
 LibraryInformationManagementSystem/
 ├── lims_portal/
-│   ├── lims_app/                  # App logic
-│   │   ├── migrations/            # Django migrations
-│   │   ├── templates/             # HTML templates
-│   │   ├── static/                # CSS, JS, images
-│   │   ├── views.py               # Business logic
-│   │   ├── models.py              # Database models
-│   │   ├── urls.py                # App routes
-│   │   ├── tests.py               # Unit tests
-│   ├── lims_portal/
-│   │   ├── settings.py            # Main settings
-│   │   ├── urls.py                # Project URL configuration
-├── manage.py                     # Django CLI entry point
-├── .env                          # Environment variables (excluded from Git)
-├── README.md                     # Project documentation
-
-yaml
-Copy
-Edit
+│ ├── lims_app/ # App logic
+│ │ ├── migrations/ # Django migrations
+│ │ ├── templates/ # HTML templates
+│ │ ├── static/ # CSS, JS, images
+│ │ ├── views.py # Business logic
+│ │ ├── models.py # Database models
+│ │ ├── urls.py # App routes
+│ │ ├── tests.py # Unit tests
+│ ├── lims_portal/
+│ │ ├── settings.py # Main settings
+│ │ ├── urls.py # Project URL configuration
+├── manage.py # Django CLI entry point
+├── .env # Environment variables (excluded from Git)
+├── README.md # Project documentation
 
 ---
 
