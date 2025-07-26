@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% extends "index.html" %}
+{% load static %}
+{% block main_content %}
+<main role ="main">
+
+<div class = "jumbotron">
+    <div class = "container">
+        <img src="{% static '/LIMS_LOGO_BIG.png' %}" class = "rounded float-start" alt="LIMS" height="200" style="margin-right: 10px;">
+        <h1 class="display-4">Hello, readers!</h1>
+        <p>Welcome to City Library. We have a large collection of books to cater reading needs of all kinds of readers.</p>
+        <p><a role ="button" href="#" class="btn btn-primary btn-lg">Browse our collection >></a></p>  
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Why reading is important?</h2>
+        <p>Reading is a fundamental skill that opens doors to knowledge, imagination, and personal growth. It enhances vocabulary, improves concentration, and fosters empathy by allowing readers to experience diverse perspectives.</p>
+      </div>
+      <div class="col">
+        <h2>Key Benefits</h2>
+        <ul>
+          <li>Enhances cognitive skills</li>
+          <li>Boosts creativity and imagination</li>
+          <li>Improves focus and concentration</li>
+          <li>Expands knowledge and understanding of the world</li>
+          <li>Fosters empathy and emotional intelligence</li>
+        </ul>
+
+      </div>
+      <div class="col">
+        <h2>Thought for the day</h2>
+        <p>"A reader lives a thousand lives before he dies" - George R.R. Martin</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <hr>
+  </div>
+      </main>
+            </main>
+  <footer class = "container">
+    <p>@ City Library 2025</p>
+  </footer>
+
+
+{% endblock %}
